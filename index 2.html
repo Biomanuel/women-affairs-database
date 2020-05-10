@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
+
+				<label class="label-input100" for="first-name">Tell us your name *</label>
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+					<input class="input100" type="text" name="last-name" placeholder="Last name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="form-group">
+					<input type="text" onfocus="(this.type='date')" name="dob" class="form-control form-control-user" id="dob" placeholder="Date of Birth" required>
+				  </div>
+				  <div class="form-group">
+					<select class="form-control" id="state" name="state" required>
+					  <option value="">Select State</option>
+					  <option value="Abia">Abia</option>
+					  <option value="Adamawa">Adamawa</option>
+					  <option value="Akwa Ibom">Akwa Ibom</option>
+					  <option value="Anambra">Anambra</option>
+					  <option value="Bauchi">Bauchi</option>
+					  <option value="Bayelsa">Bayelsa</option>
+					  <option value="Benue">Benue</option>
+					  <option value="Borno">Borno</option>
+					  <option value="Cross River">Cross River</option>
+					  <option value="Delta">Delta</option>
+					  <option value="Ebonyi">Ebonyi</option>
+					  <option value="Edo">Edo</option>
+					  <option value="Ekiti">Ekiti</option>
+					  <option value="Enugu">Enugu</option>
+					  <option value="Gombe">Gombe</option>
+					  <option value="Imo">Imo</option>
+					  <option value="Jigawa">Jigawa</option>
+					  <option value="Kaduna">Kaduna</option>
+					  <option value="Kano">Kano</option>
+					  <option value="Katsina">Katsina</option>
+					  <option value="Kebbi">Kebbi</option>
+					  <option value="Kogi">Kogi</option>
+					  <option value="Kwara">Kwara</option>
+					  <option value="Lagos">Lagos</option>
+					  <option value="Nasarawa">Nasarawa</option>
+					  <option value="Niger">Niger</option>
+					  <option value="Ogun">Ogun</option>
+					  <option value="Ondo">Ondo</option>
+					  <option value="Osun">Osun</option>
+					  <option value="Oyo">Oyo</option>
+					  <option value="Plateau">Plateau</option>
+					  <option value="Rivers">Rivers</option>
+					  <option value="Sokoto">Sokoto</option>
+					  <option value="Taraba">Taraba</option>
+					  <option value="Yobe">Yobe</option>
+					  <option value="Zamfara">Zamfara</option>
+					  <option value="FCT Abuja">FCT Abuja</option>
+					  <option value="Other">Other</option>
+					</select>
+				  </div>
+				  <div class="form-group">
+					<input type="text" name="hometown" class="form-control form-control-user" id="hometown" placeholder="Home Town" required>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="lga" class="form-control form-control-user" id="lga" placeholder="Local Government Area" required>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="occupation" class="form-control form-control-user" id="occupation" placeholder="Occupation" required>
+				  </div>
+
+				  <div class="form-group">
+					<select class="form-control" id="employmentstatus" name="employmentstatus" required>
+					  <option value="">Employment Status</option>
+					  <option value="Employed">Employed</option>
+					  <option value="Unemployed">Unemployed</option>
+					  <option value="Self Employed">Self Employed</option>
+					  <option value="Pensioner">Pensioner</option>
+					</select>
+				  </div>
+
+				  <div class="form-group">
+					<input type="tel" name="phone" class="form-control form-control-user" id="phone" placeholder="phone" required>
+				  </div>
+
+				  <div class="btn-group btn-group-toggle form-group row col-sm-10" data-toggle="buttons">
+				  <label for="gender" class="col-sm-6 col-form-label form_label">Do you belong to any NGO? </label>
+					<label class="col-sm radio-inline"><input type="radio" name="gender" value="yes"> Yes</label>
+					<label class="col-sm radio-inline"><input type="radio" name="gender" value="no" checked> No</label>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="ngogroup" class="form-control form-control-user" id="ngogroup" placeholder="Name of NGO" required>
+				  </div>
+
+				  
+				  <div class="form-group">
+					<input type="text" name="husbandname" class="form-control form-control-user" id="husbandname" placeholder="Name of your late Husband" required>
+				  </div>
+
+				  
+				  <div class="form-group">
+					<input type="text" name="husbanddeathdate" class="form-control form-control-user" id="husbanddeathdate" placeholder="Date of spouse bereavement" required>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="husbandoccupation" class="form-control form-control-user" id="husbandoccupation" placeholder="Occupation of your late husband" required>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="yearofmarriage" class="form-control form-control-user" id="yearofmarriage" placeholder="Year of your marriage" required>
+				  </div>
+
+				  <div class="form-group">
+					<input type="text" name="numberofchildren" class="form-control form-control-user" id="numberofchildren" placeholder="Number of Children" required>
+				  </div>
+
+				<label class="label-input100" for="phone">Enter phone number</label>
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Submit
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Address
+						</span>
+
+						<span class="txt2">
+							Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Lets Talk
+						</span>
+
+						<span class="txt3">
+							+1 800 1236879
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							General Support
+						</span>
+
+						<span class="txt3">
+							contact@example.com
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
